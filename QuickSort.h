@@ -4,19 +4,6 @@ using namespace std;
 
 // QUICKSORT
 // -------------------------------------------------------------------------
-/*
-
-Quicksort is more effective for datasets that fit in memory. 
-For stuff that's larger, it's better to use mergesort.
-
-*/
-/*
-
-- Best Case: O(n logn)
-- Average Case: O(n logn)
-- Worst Case: O(n^2)
-
-*/
 
 // Partition function
 int partition(vector <int> &v, int start, int end) {
