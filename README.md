@@ -54,4 +54,18 @@ is its stability: the elements compared equal retain their original order.
 
 ![merge-sort-example-300px](https://user-images.githubusercontent.com/36489953/42171944-ed5814c8-7e1a-11e8-9d30-10ae8047bb17.gif)
 
+## Quick sort
+
+Quicksort is more effective for datasets that fit in memory.  
+For stuff that's larger, it's better to use mergesort.
+
+| Case  | Performance |
+| :---: | :---: |
+| Worst case performance   | O(n^2)  |
+| Best case performance  | O(n log n)  |
+| Average case performance  | O(n log n)  |
+| Auxiliary Space           | O(log(n)) |
+
+![quick_sort_partition_animation](https://user-images.githubusercontent.com/36489953/42172331-f759ecd4-7e1b-11e8-906e-90d04a83e5a5.gif)
+
 
