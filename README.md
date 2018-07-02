@@ -59,7 +59,7 @@ is its stability: the elements compared equal retain their original order.
 
 ## Quick sort
 
-Quick Sort is a recursive sorting algorithm that is more effective for datasets that fit in memory, but is unstable.  
+Quick Sort is a recursive sorting algorithm that is more effective than other Θ(nlogn) algorithms for datasets that fit in memory, but is unstable.  
 Quick Sort in general does not requiere extra space while Merge Sort requires O(N) extra storage
 
 | Case  | Performance |
