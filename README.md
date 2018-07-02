@@ -59,7 +59,7 @@ A single most important advantage of merge sort over quick sort is its stability
 
 ## Quick sort
 
-Quick Sort is a recursive sorting algorithm that is more effective than other Θ(nlogn) algorithms for large datasets that fit in memory, but is unstable. Quick Sort in general does not requiere extra space while Merge Sort requires O(N) extra storage
+Quick Sort is a recursive sorting algorithm that is more effective than other O(nlogn) algorithms for large datasets that fit in memory, but is unstable. Quick Sort in general does not requiere extra space while Merge Sort requires O(N) extra storage
 
 | Case  | Performance |
 | :---: | :---: |
