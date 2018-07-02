@@ -11,7 +11,7 @@ void selectionSort(vector <int> &v, int n) {
 
 	for (int i = 0; i < n - 1; i++) {
 
-		minPosition = i; // suppose "i" is the min ( first in the unsorted part )
+		minPosition = i; // suppose "i" is the min
 
 		for (int j = i + 1; j < n; j++) {
 
