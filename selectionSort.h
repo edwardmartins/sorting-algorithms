@@ -6,20 +6,16 @@ using namespace std;
 //------------------------------------------------------- 
 
 void selectionSort(vector <int> &v, int n) {
-
 	int minPosition, aux;
 
 	for (int i = 0; i < n - 1; i++) {
-
 		minPosition = i; // suppose "i" is the minimum
 
 		for (int j = i + 1; j < n; j++) {
-
 			if (v[j] < v[minPosition]) { // find the "min" element in the unsorted part
 				minPosition = j;
 			}
 		}
-
 		//  swap the found "min" element to the sorted part
 		if (minPosition > i) { 
 
