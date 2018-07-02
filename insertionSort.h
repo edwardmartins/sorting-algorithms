@@ -5,11 +5,9 @@ using namespace std;
 // INSERTION SORT
 //------------------------------------------------------------
 void insertionSort(vector <int> &v, int n) {
-
 	int current, pos;
 
 	for (int i = 1; i < n; i++) {
-
 		current = v[i]; // saves the current element
 		pos = i; // position of the vector until the ordered part, pos not included
 
