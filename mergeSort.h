@@ -5,6 +5,7 @@ using namespace std;
 // MERGESORT
 // -------------------------------------------------------------------------
 
+// Merge
 void merge(vector <int> &v, int start, int mid, int end)
 {
 	vector <int> aux(v.size());
@@ -42,7 +43,7 @@ void merge(vector <int> &v, int start, int mid, int end)
 
 }
 
-
+// Merge sort
 void mergeSort(vector <int> &v, int start, int end) {
 
 	if (start < end) {
