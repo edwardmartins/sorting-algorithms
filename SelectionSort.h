@@ -4,13 +4,6 @@ using namespace std;
 
 // SELECTION SORT
 //------------------------------------------------------- 
-/*
-
-- Worst Case : O(n^2)
-- Average Case : O(n^2)
-- Best Case : O(n^2)
-
-*/
 
 void selectionSort(vector <int> &v, int n) {
 
