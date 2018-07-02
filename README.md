@@ -15,8 +15,8 @@ A slow sorting algorithm for the simplest data sets
 
 ## Insertion Sort
 Insertion sort is a simple sorting algorithm that works the way we sort playing cards. It is efficient for (quite) small data sets.  
-Insertion Sort is often used when the data set is nearly sorted (it takes minimum time (Order of n)).    
-Insertion sort takes maximum time to sort if elements are sorted in reverse order.
+It is often used when the data set is nearly sorted (it takes minimum time (Order of n)).    
+It takes maximum time to sort if elements are sorted in reverse order.
  
 
 | Case  | Performance |
