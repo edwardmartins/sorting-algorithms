@@ -10,7 +10,6 @@ A slow sorting algorithm for the simplest data sets
 | Average case performance  | O(n^2)  |
 | Auxiliary Space           | O(1)  |
 
-
 ![bubble-sort-gif-9](https://user-images.githubusercontent.com/36489953/42171410-83532a64-7e19-11e8-95a1-b2dd3aaedc43.gif)
 
 
@@ -25,8 +24,6 @@ Insertion sort takes maximum time to sort if elements are sorted in reverse orde
 | Average case performance  | O(n^2)  |
 | Auxiliary Space           | O(1)  |
 
-
-
 ![1_kra0ofxedgi8hvhjffci4w](https://user-images.githubusercontent.com/36489953/42171484-b508016a-7e19-11e8-8d47-3b95d788d579.gif)
 
 ## Selection Sort
@@ -39,6 +36,5 @@ The good thing about selection sort is that can be useful when memory write is a
 | Best case performance  | O(n^2)  |
 | Average case performance  | O(n^2)  |
 | Auxiliary Space           | O(1)  |
-
 
 ![selectionsort](https://user-images.githubusercontent.com/36489953/42171344-5554d9d2-7e19-11e8-8537-7811ebbbd1b6.gif)
