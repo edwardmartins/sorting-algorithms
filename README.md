@@ -14,7 +14,8 @@ A slow sorting algorithm for the simplest data sets
 
 
 ## Insertion Sort
-Insertion Sort is often used when the data set is nearly sorted (it takes minimum time (Order of n))  
+Insertion sort is a simple sorting algorithm that works the way we sort playing cards. It is efficient for (quite) small data sets.  
+Insertion Sort is often used when the data set is nearly sorted (it takes minimum time (Order of n)).    
 Insertion sort takes maximum time to sort if elements are sorted in reverse order.
  
 
@@ -58,7 +59,7 @@ A single most important advantage of merge sort over quick sort is its stability
 
 ## Quick sort
 
-Quick Sort is a recursive sorting algorithm that is more effective than other Θ(nlogn) algorithms for datasets that fit in memory, but is unstable. Quick Sort in general does not requiere extra space while Merge Sort requires O(N) extra storage
+Quick Sort is a recursive sorting algorithm that is more effective than other Θ(nlogn) algorithms for large datasets that fit in memory, but is unstable. Quick Sort in general does not requiere extra space while Merge Sort requires O(N) extra storage
 
 | Case  | Performance |
 | :---: | :---: |
