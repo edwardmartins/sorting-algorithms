@@ -12,6 +12,7 @@ void selectionSort(vector <int> &v, int n) {
 		minPosition = i; // suppose "i" is the minimum
 
 		for (int j = i + 1; j < n; j++) {
+			
 			if (v[j] < v[minPosition]) { // find the "min" element in the unsorted part
 				minPosition = j;
 			}
