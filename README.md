@@ -28,7 +28,7 @@ Insertion sort takes maximum time to sort if elements are sorted in reverse orde
 
 ## Selection Sort
 
-The good thing about selection sort is that can be useful when memory write is a costly operation.
+Selection sort is noted for its simplicity, and it has performance advantages over more complicated algorithms in certain situations, particularly where auxiliary memory is limited
 
 | Case  | Performance |
 | :---: | :---: |
