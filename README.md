@@ -10,3 +10,5 @@ A slow sorting algorithm for the simplest data sets
 | Average case performance  | O(n^2)  |
 | Space  | O(1)  |
 
+![bubble-sort-example-300px](https://user-images.githubusercontent.com/36489953/42170135-f668d4ee-7e15-11e8-95e4-d290bfdd1fb2.gif)
+
