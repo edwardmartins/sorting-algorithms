@@ -58,7 +58,7 @@ is its stability: the elements compared equal retain their original order.
 ## Quick sort
 
 Quicksort is more effective for datasets that fit in memory.  
-For stuff that's larger, it's better to use mergesort.
+For large datasets, it's better to use mergesort.
 
 | Case  | Performance |
 | :---: | :---: |
