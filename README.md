@@ -38,3 +38,20 @@ The good thing about selection sort is that can be useful when memory write is a
 | Auxiliary Space           | O(1)  |
 
 ![selectionsort](https://user-images.githubusercontent.com/36489953/42171344-5554d9d2-7e19-11e8-8537-7811ebbbd1b6.gif)
+
+## Merge Sort
+
+A single most important advantage of merge sort over quick sort 
+is its stability: the elements compared equal retain their original order.
+
+| Case  | Performance |
+| :---: | :---: |
+| Worst case performance   | O(n log n)  |
+| Best case performance  | O(n log n)  |
+| Average case performance  | O(n log n)  |
+| Auxiliary Space           | O(n)  |  
+
+
+![merge-sort-example-300px](https://user-images.githubusercontent.com/36489953/42171944-ed5814c8-7e1a-11e8-9d30-10ae8047bb17.gif)
+
+
