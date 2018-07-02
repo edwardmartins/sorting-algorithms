@@ -41,7 +41,7 @@ Selection sort is noted for its simplicity, and it has performance advantages ov
 
 
 ## Merge Sort
-
+Merge Sort is a Divide and Conquer algorithm that continually splits a list in half and then merge the sublists in a sorted way  
 A single most important advantage of merge sort over quick sort 
 is its stability: the elements compared equal retain their original order.
 
@@ -57,7 +57,7 @@ is its stability: the elements compared equal retain their original order.
 
 ## Quick sort
 
-Quicksort is more effective for datasets that fit in memory.  
+Quick Sort is a recursive sorting algorithm that is more effective for datasets that fit in memory, but is unstable.
 For large datasets, it's better to use mergesort.
 
 | Case  | Performance |
