@@ -4,14 +4,6 @@ using namespace std;
 
 // BUBBLE SORT
 //------------------------------------------------------- 
-/*
-
-- Worst Case : O(n^2)
-- Average Case : O(n^2)
-- Best Case : O(n)
-
-*/
-
 void bubbleSort(vector <int> &v, int n) {
 	bool swapped = true;
 	int i = 0;
