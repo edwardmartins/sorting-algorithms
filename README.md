@@ -69,5 +69,4 @@ Quick Sort in general does not requiere extra space while Merge Sort requires O(
 | Average case performance  | O(n log n)  |
 | Auxiliary Space           | O(log(n)) |
 
-![quick_sort_partition_animation](https://user-images.githubusercontent.com/36489953/42172331-f759ecd4-7e1b-11e8-906e-90d04a83e5a5.gif)
-
+![quicksort-example](https://user-images.githubusercontent.com/36489953/42190383-0923306a-7e5d-11e8-86b3-1e9f7a79b782.gif)
