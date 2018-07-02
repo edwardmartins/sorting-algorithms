@@ -4,15 +4,6 @@ using namespace std;
 
 // INSERTION SORT
 //------------------------------------------------------------
-// It works in linear time O(n) when the data set is nearly sorted
-/*
-
-- Worst Case : O(n^2)
-- Average Case : O(n^2)
-- Best Case : O(n)
-
-*/
-
 void insertionSort(vector <int> &v, int n) {
 
 	int current, pos;
