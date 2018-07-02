@@ -18,7 +18,6 @@ void selectionSort(vector <int> &v, int n) {
 		}
 		//  swap the found "min" element to the sorted part
 		if (minPosition > i) { 
-
 			swap(v[minPosition], v[i]);
 		}
 	}
