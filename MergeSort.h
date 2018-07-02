@@ -4,20 +4,6 @@ using namespace std;
 
 // MERGESORT
 // -------------------------------------------------------------------------
-/*
-
-A single most important advantage of merge sort over quick sort 
-is its stability: the elements compared equal retain their original order.
-
-*/
-/* 
-
-- Best Case : O(n * logn)
-- Average Case : O(n * logn)
-- Worst Case : O(n * logn)
-
-*/
-
 
 void merge(vector <int> &v, int start, int mid, int end)
 {
