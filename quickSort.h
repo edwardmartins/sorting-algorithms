@@ -13,7 +13,10 @@ int partition(vector <int> &v, int start, int end) {
 	int j = end;
 
 	while (i <= j) {
-		// If element at the left is bigger than the pivot and element at the right is smaller, swap elements
+		
+		// If element at the left is bigger than the pivot and
+		// element at the right is smaller, swap elements
+		
 		if (v[i] > v[pivot] && v[j] < v[pivot]) {
 			swap(v[i], v[j]);
 		}
