@@ -17,8 +17,8 @@ int partition(vector <int> &v, int start, int end) {
 		if (v[i] > v[pivot] && v[j] < v[pivot]) {
 			swap(v[i], v[j]);
 		}
-		else if (v[i] <= v[pivot]) { i++; } // while value at the left side is less than pivot move right
-		else if (v[j] >= v[pivot]) { j--; } // while value at the right side is greater than pivot move left
+		else if (v[i] <= v[pivot]) { i++; } 
+		else if (v[j] >= v[pivot]) { j--; } 
 	}
 
 	// we swap the pivot into right position
