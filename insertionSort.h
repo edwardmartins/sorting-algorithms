@@ -18,8 +18,9 @@ void insertionSort(vector <int> &v, int n) {
 			v[pos] = v[pos - 1]; 
 			pos--;
 		}
-		// if pos != i we have made space so we move the current value to its position 
-		if (pos != i) 
+		
+		// we move the current value to its position 
+		if (pos != i)  
 			v[pos] = current; 
 	}
 }
