@@ -21,7 +21,7 @@ int partition(vector <int> &v, int start, int end) {
 		else if (v[j] >= v[pivot]) { j--; } 
 	}
 
-	// we swap the pivot into right position
+	// we swap the pivot into the right position
 	swap(v[j], v[pivot]);
 	return j;
 }
