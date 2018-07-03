@@ -4,6 +4,7 @@ using namespace std;
 
 // INSERTION SORT
 //------------------------------------------------------------
+
 void insertionSort(vector <int> &v, int n) {
 	int current, pos;
 
