@@ -7,15 +7,13 @@ using namespace std;
 
 // Partition function
 int partition(vector <int> &v, int start, int end) {
-
+	
 	int pivot = start; // Take as a pivot the first element
 	int i = start + 1;
 	int j = end;
 
 	while (i <= j) {
-		// Elements smaller than the pivot move to the left side
-		// and elements bigger that the pivot move to the right side
-		
+		// If element at the left is bigger than the pivot and element at the right is smaller, swap elements
 		if (v[i] > v[pivot] && v[j] < v[pivot]) {
 			swap(v[i], v[j]);
 		}
