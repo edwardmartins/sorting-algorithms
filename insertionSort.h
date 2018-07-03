@@ -14,7 +14,6 @@ void insertionSort(vector <int> &v, int n) {
 
 		// while the elements in the ordered part are higher than the current value we make space
 		while (pos > 0 && v[pos - 1] > current) {
-			
 			v[pos] = v[pos - 1]; 
 			pos--;
 		}
