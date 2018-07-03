@@ -8,7 +8,7 @@ using namespace std;
 // Partition function
 int partition(vector <int> &v, int start, int end) {
 	
-	int pivot = start; // Take as a pivot the first element
+	int pivot = start; // Take the first element as a pivot 
 	int i = start + 1;
 	int j = end;
 
