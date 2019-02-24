@@ -1,5 +1,7 @@
 # A collection of sorting algorithms implemented in C++
 
+A collection of sorting algorithms I implemented myself to see their advantages and disadvantages
+
 ## Bubble Sort
 A slow sorting algorithm for the simplest data sets
 
