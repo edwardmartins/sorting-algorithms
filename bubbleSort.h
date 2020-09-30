@@ -1,26 +1,35 @@
-#include <vector>
-
+#include<iostream>
+#include<vector>
+#include<algorithm>
 using namespace std;
 
-// BUBBLE SORT
-//------------------------------------------------------- 
 
-void bubbleSort(vector <int> &v, int n) {
-	bool swapped = true;
-	int i = 0;
+// Bubble Sort ------------------------
 
-	while (i < n - 1 && swapped) { // keep going while we swap in the unordered part
-		swapped = false;
-		
-		for (int j = n - 1; j > i; j--) { // unordered part
-			
-			if (v[j] < v[j - 1]) {
-				swap(v[j], v[j - 1]);
-				swapped = true;
+
+int main()
+{
+	int n;
+	cin>>n;
+	vector<int> a(n);
+	for (int i=0;i<n;i++)
+	{
+		cin>>v[i];
+	}
+	for(int i=0;i<n;i++)
+	{
+		for(int j=i+1;j<n;j++)
+		{
+			if(a[j]>a[i])
+			{
+				swap(a[i],a[j]);
 			}
 		}
-		i++;
 	}
+	for(int i=0;i<n;i++)
+		cout<<a[i]<<" ";
+	return 0;
 }
+
 
 
