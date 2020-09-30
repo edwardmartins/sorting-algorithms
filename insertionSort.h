@@ -6,21 +6,17 @@ using namespace std;
 //------------------------------------------------------------
 
 void insertionSort(vector <int> &v, int n) {
-	int current, pos;
+	int j, small;
 
 	for (int i = 1; i < n; i++) {
-		current = v[i]; 
-		pos = i; // limit of the ordered part, pos not included
-
-		// we make space
-		while (pos > 0 && v[pos - 1] > current) {
-			v[pos] = v[pos - 1]; 
-			pos--;
+		small=v[i];
+		j=i-1;
+		while((j>=0) && (small < v[j]))
+		{
+			v[j+1]=v[j];
+			j--;
 		}
-		
-		// we move the current value to its position 
-		if (pos != i)  
-			v[pos] = current; 
+		v[j+1]=small;
 	}
 }
 
