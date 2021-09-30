@@ -20,7 +20,6 @@ void merge(vector <int> &v, int start, int mid, int end)
 			aux[k] = v[i++];
 		else
 			aux[k] = v[j++];
-
 		k++;
 	}
 
